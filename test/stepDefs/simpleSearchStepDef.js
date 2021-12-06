@@ -14,7 +14,7 @@ Given('I am on the studentbeans homepage', {timeout:10000}, async function () {
 
 Given('I open the search bar', {timeout:10000},  async function () {
   await simpleSearchPageObject.goToSearchpage()
-  await simpleSearchPageObject.openSearchPage()
+  await simpleSearchPageObject.openSearchPage()   
 })
 
 When('I enter "Samsung"', {timeout:10000},  async function () {
